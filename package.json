@@ -1,0 +1,24 @@
+{
+  "name": "vue3-cli-service",
+  "version": "1.0.0",
+  "description": "A Vue3 blank project served by vue-cli-service",
+  "scripts": {
+    "serve": "vue-cli-service serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wissemb11/vue3-cli-service"
+  },
+  "keywords": [
+    "vue",
+    "vuetify",
+    "component",
+    "json"
+  ],
+  "author": "Wissem Boughamoura",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vue": "^3.2.36"
+  }
+}

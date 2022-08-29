@@ -1,0 +1,34 @@
+# Tutorial Vue3-COMPOSITION-API ON the SERVER SIDE
+This tutorial aims to illustrate the use of vue3 with COMPOSITION-API on the server side served by @vue/cli-service
+
+# Install dependencies
+#initiate wb-ui-3 project
+
+npm init
+#install local node_modules
+
+npm i
+#install last version of vue (3.2.26)
+
+npm install vue@next
+At this point, we cam work at node shell
+
+# Creating server
+#Install service provided by @vue framework (we can use express framework)
+
+npm install vue-cli-service
+# add services from @vue-cli-service in packages.json->scripts
+
+scripts:{... "serve": "vue-cli-service serve", }
+# Creating files
+# Creating folder 'src'
+# Creating index.htm ; there, will live the vue app mounted to the element of the id= #app
+#-----index.htm----
+// <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <link rel="icon" type="image/svg+xml" href="/vite.svg" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Vue3-COMPOSITION-API ON the SERVER SIDE</title> </head> <body> <div id="app"></div> <script type="module" src="/src/main.js"></script> </body> </html>
+#creating main.js ; The entry point that control the vue app. here we will only use COMPOSITION-API.
+#-----main.js----
+import { createApp,h } from 'vue'; App={ prop:{}, setup(props,context){ ... ... } };
+# Mount the App to the element of id #app (in index.html)
+# Add some style
+#-----style.css----
+import './style.css'
