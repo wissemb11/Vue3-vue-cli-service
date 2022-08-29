@@ -1,5 +1,5 @@
 {
-  "name": "vue3-cli-service",
+  "name": "@wissemb11/vue3-cli-service",
   "version": "1.0.0",
   "description": "A Vue3 blank project served by vue-cli-service",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wissemb11/vue3-cli-service"
+    "url": "git+https://github.com/wissemb11/vue3-cli-service.git"
   },
   "keywords": [
     "vue",
@@ -19,6 +19,12 @@
   "license": "MIT",
   "dependencies": {
     "@vue/cli-service": "^5.0.8",
-    "vue": "^3.2.36"
-  }
+    "vue": "^3.2.36",
+    "vue3-cli-service": "github:wissemb11/vue3-cli-service"
+  },
+  "bugs": {
+    "url": "https://github.com/wissemb11/vue3-cli-service/issues"
+  },
+  "homepage": "https://github.com/wissemb11/vue3-cli-service#readme",
+  "main": "src/main.js"
 }
