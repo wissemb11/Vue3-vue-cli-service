@@ -1,9 +1,10 @@
 {
-  "name": "@wissemb11/vue3-cli-service",
+  "name": "vue3-cli-service",
   "version": "1.0.0",
   "description": "A template with minimum requirements based on Vue3 and served by vue-cli-service",
+  "main": "src/main.js",
   "scripts": {
-    "serve": "vue-cli-service serve"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -11,18 +12,12 @@
   },
   "keywords": [
     "vue3",
-    "component",
-    "json"
+    "@vue/cli-service"
   ],
   "author": "Wissem Boughamoura",
   "license": "MIT",
-  "dependencies": {
-    "@vue/cli-service": "^5.0.8",
-    "vue": "^3.2.36",
-  },
   "bugs": {
     "url": "https://github.com/wissemb11/vue3-cli-service/issues"
   },
-  "homepage": "https://github.com/wissemb11/vue3-cli-service#readme",
-  "main": "src/main.js"
+  "homepage": "https://github.com/wissemb11/vue3-cli-service#readme"
 }

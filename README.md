@@ -1,19 +1,42 @@
-# vue3-cli-service ![](https://img.shields.io/npm/v/vue-router.svg)
+# vue3-cli-service [![](https://img.shields.io/badge/vue3--cli--service-1.0.0-blue)](https://www.npmjs.com/package/vue3-cli-service)
 
 ---
 ## Template Vue3 + @vue/cli-service
 
 ### Description
-'Vue3 + @vue/cli-service' is a model with minimum requirements based on Vue3 and served by vue-cli-service,
+'Vue3 + @vue/cli-service' is a model with minimum requirements based on Vue3 and served by vue-cli-service.  
+
+It is the result of this 
+[tutorial](https://codesandbox.io/s/clever-hofstadter-40zvh0?file=/src/main.js),
+ which aims to illustrate the use of COMPOSITION-API on vue3 served by @vue/cli-service.
 
 ### Installation
 
-clone this repo and run
+1- Clone this repo and run
 
 ```bash
+
+git clone github.com/wissemb11/vue3-cli-service
+
+```
+2. change directory
+
+```bash
+
+cd vue3-cli-service
+
+```
+3. Install node modules
+
+```bash
+
 npm i
 
-#then run the serve command for development and watch
+```
+
+4- Run the serve command for development and watch
+
+```bash
 
 npm run serve
 
