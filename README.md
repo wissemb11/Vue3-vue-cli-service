@@ -7,9 +7,11 @@
 'Vue3 + @vue/cli-service' is a model with minimum requirements based on Vue3 and served by vue-cli-service.  
 
 It is the result of this 
-[tutorial](https://codesandbox.io/s/clever-hofstadter-40zvh0?file=/src/main.js),
+[tutorial](http://www.wi-bg.com),
  which aims to illustrate the use of COMPOSITION-API on vue3 served by @vue/cli-service.
 
+### demo
+[For live demo](https://codesandbox.io/s/clever-hofstadter-40zvh0),
 ### Installation
 
 1- Clone this repo and run
