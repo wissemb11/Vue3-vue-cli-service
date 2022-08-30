@@ -1,7 +1,7 @@
 {
   "name": "@wissemb11/vue3-cli-service",
   "version": "1.0.0",
-  "description": "'Vue3 + @vue/cli-service' is a model with minimum requirements based on Vue3 and served by vue-cli-service",
+  "description": "A template with minimum requirements based on Vue3 and served by vue-cli-service",
   "scripts": {
     "serve": "vue-cli-service serve"
   },
@@ -10,8 +10,7 @@
     "url": "git+https://github.com/wissemb11/vue3-cli-service.git"
   },
   "keywords": [
-    "vue",
-    "vuetify",
+    "vue3",
     "component",
     "json"
   ],
@@ -20,7 +19,6 @@
   "dependencies": {
     "@vue/cli-service": "^5.0.8",
     "vue": "^3.2.36",
-    "vue3-cli-service": "github:wissemb11/vue3-cli-service"
   },
   "bugs": {
     "url": "https://github.com/wissemb11/vue3-cli-service/issues"
