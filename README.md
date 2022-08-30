@@ -3,9 +3,8 @@
 > This is the repository for WB Router 4 (for Vue 3)
 
 ---
-# Template for creating chrome extensions using vue + vuetify
+# Template for creating Vue3-COMPOSITION-API  served by @vue/cli-service
 
-this is based on [Kocal/vue-web-extension](https://github.com/Kocal/vue-web-extension/) so thank you Kocal
 
 ## Installation
 
@@ -14,13 +13,10 @@ clone this repo and run
 ```bash
 npm i
 
-#then run the build command for production build or dev command for development and watch
+#then run the serve command for development and watch
 
-npm run dev
+npm run serve
 
-# you can run command build:zip for building for production and creating a zip file of the build
-
-npm run build:zip
 ```
 
 ## Aliases
