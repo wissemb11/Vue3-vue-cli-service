@@ -1,6 +1,6 @@
 {
   "name": "vue3-cli-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A template with minimum requirements based on Vue3 and served by vue-cli-service",
   "main": "src/main.js",
   "scripts": {
