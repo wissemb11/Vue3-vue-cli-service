@@ -1,10 +1,12 @@
 # vue3-cli-service ![](https://img.shields.io/npm/v/vue-router.svg)
 
 ---
-# Template Vue3 + @vue/cli-service: The minimum required
+## Template Vue3 + @vue/cli-service
 
+### Description
+'Vue3 + @vue/cli-service' is a model with minimum requirements based on Vue3 and served by vue-cli-service,
 
-## Installation
+### Installation
 
 clone this repo and run
 
@@ -17,11 +19,9 @@ npm run serve
 
 ```
 
-# Edit file src/main.js
+## Edit file src/main.js
 
-#### COMPOSITION API case
-
-[@mdi/js](https://github.com/Templarian/MaterialDesign-JS) is added and configured to be used in .vue files for example to add icon mdi-weather-night
+##### COMPOSITION API case
 
 ```vue
 import { createApp, h } from 'vue'
@@ -40,7 +40,7 @@ let App = {
 createApp(App).mount('#app')
 ```
 
-#### OPTIONS API case
+##### OPTIONS API case
 
 ```vue
 import { createApp } from 'vue'
