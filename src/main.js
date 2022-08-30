@@ -6,7 +6,7 @@ let App = {
         return () => [h('h1', '# Tutorial Vue3-COMPOSITION-API ON the SERVER SIDE'),
             h('p', 'This tutorial aims to illustrate the use of vue3 with COMPOSITION-API on the server side served by @vue/cli-service'),
             h('h1', `# Install dependencies`),
-            h('p', "#initiate wb-ui-3 project"),
+            h('p', "#initiate <project-name> project"),
             h('code', `npm init`),
             h('p', '#install local node_modules'),
             h('code', `npm i`),
@@ -43,24 +43,36 @@ scripts:{...
    </body>
  </html>`),
             // #-----------------,
-
             h('li', `#creating main.js ; The entry point that control the vue app. here we will only use COMPOSITION-API.`),
-
             h('h2', '#-----main.js----'),
-            h('code', `import { createApp,h } from 'vue';
-App={
-    prop:{},
-    setup(props,context){
-    ...
-    ...
-        }
-};`),
+            h('code', `import { createApp,h } from 'vue'; App={prop:{}, setup(props,context){... ... } };`),
             // #-----------------
-
             h('li', '# Mount the App to the element of id #app (in index.html)'),
             h('li', '# Add some style '),
             h('h2', '#-----style.css----'),
-            h('code', `import './style.css'`)
+            h('code', `import './style.css'`),
+            h('h1', 'Add project to GitHub'),
+            h('li', 'git init'),
+            h('li', 'git add .'),
+            h('li', 'git commit -m "Add existing project files to Git"'),
+            h('li', 'git remote add origin https://github.com/<user>/<github_repo>.git'),
+            h('li', 'git push -u -f origin master'),
+            h('h1', 'Creating a scoped public package'),
+
+            h('p', `In the package root directory, run the npm init command and pass the scope to the scope flag:`),
+            h('p', `For an organization-scoped package, replace my-org with the name of your organization:`),
+            h('code', `npm init --scope=@my-org`),
+            h('p', `For a user-scoped package, replace my-username with your username:`),
+            h('code', `npm init --scope=@my-username`),
+            h('h1', 'Create a README file'),
+            h('p', 'README file explains what your package code is and how to use it.'),
+            h('h1', 'Publishing scoped public packages'),
+            h('p', `On the command line, navigate to the root directory of your package.`),
+            h('code', `cd </path/to/project-name>`),
+            h('p', `To publish your scoped public package to the npm registry, run:`),
+            h('code', `npm publish --access public`),
+            h('p', `To see your public package page, visit npmjs.com/package/<project-name>, replacing <project-name> with the name of your package. Public packages will say public below the package name on the npm website.`)
+
         ]
 
     }
