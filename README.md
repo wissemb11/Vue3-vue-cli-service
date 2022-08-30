@@ -3,31 +3,46 @@
 > This is the repository for WB Router 4 (for Vue 3)
 
 ---
+# Template for creating chrome extensions using vue + vuetify
 
-Get started with the [documentation](https://router.vuejs.org).
+this is based on [Kocal/vue-web-extension](https://github.com/Kocal/vue-web-extension/) so thank you Kocal
 
-## Quickstart
+## Installation
 
-- Via CDN: `<script src="https://unpkg.com/vue-router@4"></script>`
-- In-browser playground on [CodeSandbox](https://codesandbox.io/s/vue-router-4-reproduction-hb9lh)
-- Add it to an existing Vue Project:
+clone this repo and run
 
-  ```bash
-  npm install vue-router@4
-  ```
+```bash
+npm i
 
-## Changes from Vue Router 3
+#then run the build command for production build or dev command for development and watch
 
-Please consult the [Migration Guide](https://router.vuejs.org/guide/migration/).
+npm run dev
 
-## Contributing
+# you can run command build:zip for building for production and creating a zip file of the build
 
-See [Contributing Guide](https://github.com/vuejs/router/blob/main/.github/contributing.md).
+npm run build:zip
+```
 
-## Special Thanks
+## Aliases
 
-<a href="https://www.browserstack.com">
-  <img src="https://github.com/vuejs/vue-router/raw/dev/assets/browserstack-logo-600x315.png" height="80" title="BrowserStack Logo" alt="BrowserStack Logo" />
-</a>
+`@` points to `/src/`
 
-Special thanks to [BrowserStack](https://www.browserstack.com) for letting the maintainers use their service to debug browser specific issues.
+`#` points to `/src/components/`
+
+## Vuetify
+
+tree shaking is auto when building for production
+
+[@mdi/js](https://github.com/Templarian/MaterialDesign-JS) is added and configured to be used in .vue files for example to add icon mdi-weather-night
+
+```vue
+<template>
+  <v-btn icon>
+    <v-icon>{{ $mdi.mdiWeatherNight }}</v-icon>
+  </v-btn>
+</template>
+```
+
+## Vue
+
+you can add anything (ex: vuex, vue router) using the entry point's js file
