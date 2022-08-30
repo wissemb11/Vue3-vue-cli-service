@@ -1,7 +1,7 @@
 {
   "name": "@wissemb11/vue3-cli-service",
   "version": "1.0.0",
-  "description": "A Vue3 blank project served by vue-cli-service",
+  "description": "'Vue3 + @vue/cli-service' is a model with minimum requirements based on Vue3 and served by vue-cli-service",
   "scripts": {
     "serve": "vue-cli-service serve"
   },
